@@ -15,3 +15,12 @@
   end
   """
 ```
+
+
+OR
+
+```ruby
+'require "minitest"':
+  'prefix': 'minitest'
+  'body': 'require "minitest/autorun"\nrequire "minitest/pride"\nrequire "mocha/minitest"\n#require "./lib/<file_name>"\n\nclass ClassNameTest < Minitest::Test\n\n  #def setup\n\n  #end\n\n  #def test_it_exists\n    #assert_instance_of <Class>,\n  #end\n\n  #def test_it_has_attributes\n  #end\n\nend'
+```
